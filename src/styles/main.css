@@ -1,0 +1,45 @@
+body,html {
+    background-image: url("./component/background.jpg");
+    height: 90vh;
+    width: 100vw;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Slab', serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100px;
+    text-transform: uppercase;
+    padding-left: 25%;
+    text-align: start;
+}
+
+/* styling wrapper of the page */
+#container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-container {
+    width: 100vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#movie-container {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
