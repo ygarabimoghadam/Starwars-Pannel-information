@@ -8,7 +8,11 @@ var array = []
 var array2 = []
 var array3 = []
 var array4 = []
+ /*
+    get lists of starships by request and name of each starships one by one
+    */
 async function information(ind) {
+   
 
     var url_temp = 'https://swapi.dev/api/films/' + ind
     var response0 = await fetch(url_temp)
@@ -27,6 +31,9 @@ async function information(ind) {
         arrrr.push(userdata0["name"]);
     }
 }
+/*
+clear html page and show names of starships using list and make linke for each item of the list 
+*/
 async function parseJSON(ind) {
     await information(ind);
 
@@ -59,7 +66,10 @@ async function parseJSON(ind) {
         list.appendChild(entry)
     }
 }
-
+/*
+ get information of each starship and show on the same html page 
+ also function for back to movie button 
+*/
 async function content(j) {
     document.getElementById("name").innerText = ''
     var response2 = await fetch(array[[j]])
@@ -120,6 +130,10 @@ async function content(j) {
     }
 }
 
+
+/*
+function for back to movie button
+*/
 function clickbutton() {
     document.getElementById("container").style.display = "flex";
     document.getElementById("title").style.display = "flex";
