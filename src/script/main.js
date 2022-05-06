@@ -8,11 +8,11 @@ var array = []
 var array2 = []
 var array3 = []
 var array4 = []
- /*
-    get lists of starships by request and name of each starships one by one
-    */
+/*
+   get lists of starships by request and name of each starships one by one
+   */
 async function information(ind) {
-   
+
 
     var url_temp = 'https://swapi.dev/api/films/' + ind
     var response0 = await fetch(url_temp)

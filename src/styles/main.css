@@ -1,4 +1,8 @@
-body,html {
+/*
+background image style
+*/
+body,
+html {
     background-image: url("./component/background.jpg");
     height: 90vh;
     width: 100vw;
@@ -12,6 +16,10 @@ body,html {
 * {
     box-sizing: border-box;
 }
+
+/*
+tile movie style
+*/
 
 #title {
     font-weight: 700;
@@ -30,6 +38,9 @@ body,html {
     align-items: center;
 }
 
+/*
+styling of each item such as name  of starships, second html container 
+*/
 #item-container {
     width: 100vw;
     display: none;
@@ -37,6 +48,9 @@ body,html {
     align-items: center;
 }
 
+/*
+styling of each item such as name , episode , ...
+*/
 #movie-container {
     width: 100%;
     display: flex;

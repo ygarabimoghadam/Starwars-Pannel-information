@@ -20,6 +20,9 @@
     transition: background-color 0.85s;
 }
 
+/*
+color of title 
+*/
 #title {
     color: white;
 }
@@ -28,6 +31,10 @@
 #content-box:hover {
     background-color: #000000c5;
 }
+
+/*
+styling first page , name ,episode and release date
+*/
 
 .movie {
     color: #6495ed;
@@ -42,6 +49,10 @@
     padding-left: 300px;
 }
 
+/*
+showing item such as keyand value using row flex
+*/
+
 .movie .item {
     display: flex;
     flex-direction: row;
@@ -50,12 +61,21 @@
     width: 100%;
 }
 
+/*
+styling name , episods and release date
+*/
+
 .movie .key {
     color: #64daed;
     font-size: 50px;
     font: italic small-caps bold 18px/30px Georgia, serif;
     text-transform: none;
 }
+
+/*
+styling value of name , episods and release date
+*/
+
 
 .movie .value {
     font-weight: 700;
@@ -64,6 +84,10 @@
     font: italic small-caps bold 18px/30px Georgia, serif;
     margin-right: 10px;
 }
+
+/*
+styling starships key
+*/
 
 .default-button {
     box-shadow: inset 0 34px 0 -15px #ff51a9;
@@ -80,9 +104,17 @@
     margin: 1% 150%;
 }
 
+/*
+styling senond page that includes name of starships
+*/
+
 #content-box-item:hover {
     background-color: #000000c5;
 }
+
+/*
+styling senond page that includes name of starships
+*/
 
 #content-box-item {
     display: "flex";
@@ -103,6 +135,10 @@
     margin-top: 10%;
 }
 
+/*
+styling senond page that includes two list of name and starship 's information
+*/
+
 .movie-item {
     color: #6495ed;
     min-height: 50px;
@@ -116,6 +152,11 @@
     padding-left: 5%;
 }
 
+/*
+styling senond page that includes two list of name and starship 's information
+*/
+
+
 .item1 {
     display: flex;
     flex-direction: row;
@@ -123,6 +164,12 @@
     padding-top: 10%;
     width: 100%;
 }
+
+/*
+styling name of starships of each episode
+*/
+
+
 
 .movie-item .key-item {
 
@@ -133,6 +180,10 @@
 
 }
 
+/*
+styling information of selected starships 
+*/
+
 .movie-item .value-item {
     font-weight: 700;
     font-size: 50px;
@@ -141,16 +192,20 @@
     margin-right: 10px;
 }
 
+/*
+stilyng back to movie button
+*/
+
 #button {
     box-shadow: inset 0 34px 0 -15px #ff51a9;
     background-color: #ff1e90;
     border: 1px solid #241d13;
     display: inline-block;
-    cursor: pointer;
     color: #fff;
     font-size: 18px;
     font-weight: 100;
     text-decoration: none;
+    cursor: pointer;
     border-radius: 20px;
     text-shadow: 0 -1px 0 #ff389d;
     margin-top: 10%;
