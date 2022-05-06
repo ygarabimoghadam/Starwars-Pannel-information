@@ -66,8 +66,8 @@
 }
 
 .default-button {
-    box-shadow: inset 0 34px 0 -15px #b54b3a;
-    background-color: #a73f2d;
+    box-shadow: inset 0 34px 0 -15px #ff51a9;
+    background-color: #ff1e90;
     border: 1px solid #241d13;
     display: inline-block;
     cursor: pointer;
@@ -76,7 +76,7 @@
     font-weight: 100;
     text-decoration: none;
     border-radius: 20px;
-    text-shadow: 0 -1px 0 #7a2a1d;
+    text-shadow: 0 -1px 0 #ff389d;
     margin: 1% 150%;
 }
 
@@ -142,8 +142,8 @@
 }
 
 #button {
-    box-shadow: inset 0 34px 0 -15px #b54b3a;
-    background-color: #a73f2d;
+    box-shadow: inset 0 34px 0 -15px #ff51a9;
+    background-color: #ff1e90;
     border: 1px solid #241d13;
     display: inline-block;
     cursor: pointer;
@@ -152,6 +152,6 @@
     font-weight: 100;
     text-decoration: none;
     border-radius: 20px;
-    text-shadow: 0 -1px 0 #7a2a1d;
+    text-shadow: 0 -1px 0 #ff389d;
     margin-top: 10%;
 }
